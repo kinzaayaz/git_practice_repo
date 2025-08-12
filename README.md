@@ -43,4 +43,3 @@ working with git push:
 `git pull` : to pull/fetch latest files from remote repo to local repo
 working with git clone:
 `git clone (repo link)` : to clone others repo on ur sys locally
-
