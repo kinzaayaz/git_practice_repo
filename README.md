@@ -1,11 +1,12 @@
 `git init` → Initialize a new Git repository in the current folder.
 `git ls` → Lists files and folders in the current directory.
 `git ls` -la → Lists files including hidden ones (like .git).
-`git add` (filename) → Stage a specific file.
-`git add` * → Stage all files.
-`git commit` -m (message) → Commit staged changes with a message.
+`git add (filename)` → Stage a specific file.
+`git add *` → Stage all files.
+`git status`: to check for any chnge in repo.
+`git commit -m (message)` → Commit staged changes with a message.
 `git log` → View the commit history. (author name,date,time,comment, all details)
-`git diff` → Get detailed changes between current and previous files.
+`git diff` → to see differences in current version and previous version.
 `git branch` → Check branches.
 
 Working with git show:
@@ -36,6 +37,10 @@ working with git push:
 `git remote add origin (link of repo)`
 `git branch -M main`
 `git push -u origin main`
+`git push` :push files from local to remote repo
 `git remote` : to check our repo is linked with remote repo
 `git remote -v` : not only check for repo is linked or not,but Also provide links of repo as well 
+`git pull` : to pull/fetch latest files from remote repo to local repo
+working with git clone:
+`git clone (repo link)` : to clone others repo on ur sys locally
 
