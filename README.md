@@ -43,10 +43,7 @@ working with git push:
 `git pull` : to pull/fetch latest files from remote repo to local repo
 working with git clone:
 `git clone (repo link)` : to clone others repo on ur sys locally
-<<<<<<< HEAD
-=======
 working with branching and merging:
 `git branch branchname` : for creating new branch
 `git checkout branchname` : for change branch
-
->>>>>>> design
+`git merge branchname` : 1st u have to checkout to main branch and then merge desired branch to mainn branch
