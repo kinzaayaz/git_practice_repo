@@ -24,6 +24,7 @@ Working with git restore:
 
 Working with git reset:
 `git reset –hard HEAD ^ `: is used to go back one commit and erase changes permanently.
+
 Working with git log:
 `git log -p -2`: last 2 commit with diff
 `git log –stat` : for summary of chnges
@@ -33,6 +34,7 @@ Working with git log:
 `git log --since`
 `git log --until`
 `git log --author`
+
 working with git push:
 `git remote add origin (link of repo)`
 `git branch -M main`
@@ -41,13 +43,20 @@ working with git push:
 `git remote` : to check our repo is linked with remote repo
 `git remote -v` : not only check for repo is linked or not,but Also provide links of repo as well 
 `git pull` : to pull/fetch latest files from remote repo to local repo
+
 working with git clone:
 `git clone (repo link)` : to clone others repo on ur sys locally
+
 working with branching and merging:
 `git branch branchname` : for creating new branch
 `git checkout branchname` : for change branch
 `git merge branchname` : 1st u have to checkout to main branch and then merge desired branch to mainn branch
+
 working with git forking and pull request:
 
 
 working with git ignore:
+
+working with git clean:
+`git clean -n` : list untrack files 
+`git clean -f` : permanently remove untrack files
