@@ -47,3 +47,7 @@ working with branching and merging:
 `git branch branchname` : for creating new branch
 `git checkout branchname` : for change branch
 `git merge branchname` : 1st u have to checkout to main branch and then merge desired branch to mainn branch
+working with git forking and pull request:
+
+
+working with git ignore:
