@@ -29,6 +29,13 @@ Working with git log:
 `git log --pretty=oneline`: for commits in one line
 `git log -S function name`: for checking detail of specific function
 `git log --grep`:for commit msgs
-``git log --since`
+`git log --since`
 `git log --until`
 `git log --author`
+working with git push:
+`git remote add origin (link of repo)`
+`git branch -M main`
+`git push -u origin main`
+`git remote` : to check our repo is linked with remote repo
+`git remote -v` : not only check for repo is linked or not,but Also provide links of repo as well 
+
