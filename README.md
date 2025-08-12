@@ -14,15 +14,21 @@ Working with git show:
 
 Working with git checkouts:
 `git checkout` (T no) – filepath or * → Check a specific file without terminal.
-git checkout branchname – filepath or * → Go back to the latest version of code/file.
+`git checkout branchname – filepath or *` → Go back to the latest version of code/file.
 
 Working with git restore:
-git restore filename or . → Restore the original version of a file if changes were made by mistake.
-git restore --staged . (then) git restore . → Revert staged changes after git add.
-git restore –worktree . → Remove extra changes made after staging, without affecting the staged desired code.
+`git restore filename or .` → Restore the original version of a file if changes were made by mistake.
+`git restore --staged . (then) git restore .` → Revert staged changes after git add.
+`git restore –worktree .` → Remove extra changes made after staging, without affecting the staged desired code.
 
 Working with git reset:
-git reset –hard HEAD ^ : is used to go back one commit and erase changes permanently.
+`git reset –hard HEAD ^ `: is used to go back one commit and erase changes permanently.
 Working with git log:
-
-
+`git log -p -2`: last 2 commit with diff
+`git log –stat` : for summary of chnges
+`git log --pretty=oneline`: for commits in one line
+`git log -S function name`: for checking detail of specific function
+`git log --grep`:for commit msgs
+``git log --since`
+`git log --until`
+`git log --author`
