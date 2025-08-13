@@ -60,3 +60,8 @@ working with git ignore:
 working with git clean:
 `git clean -n` : list untrack files 
 `git clean -f` : permanently remove untrack files
+
+working with git tags:
+`git tag -a tagname -m message` : for adding tags to latest comit
+`git tag -a tagname T.no -m message` : for adding tags to the specific commit
+`git push origin --tags` : to push tags remotely
